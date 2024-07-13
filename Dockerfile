@@ -1,9 +1,13 @@
-FROM openjdk:11-jre-slim
-
+# First stage: Build the application
+FROM maven:3.9.6-eclipse-temurin-17 AS build
 WORKDIR /app
+COPY pom.xml ./
+COPY src ./src
+RUN mvn clean package -DskipTests
 
-COPY target/WebAppRealTimeTest-0.0.1-SNAPSHOT.jar app.jar
-
+# Second stage: Run the application
+FROM eclipse-temurin:17-jdk-jammy
+WORKDIR /app
+COPY --from=build /app/target/WebAppRealTimeTest-0.0.1-SNAPSHOT.jar app.jar
 EXPOSE 8080
-
-CMD ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "app.jar"]
