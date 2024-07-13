@@ -11,7 +11,7 @@ public class WebAppRealTimeTestApplication {
 		SpringApplication app = new SpringApplication(WebAppRealTimeTestApplication.class);
 		String port = System.getenv("PORT");
 		if (port == null) {
-			port = "8080"; // Default port if not specified
+			port = "8080";
 		}
 		app.setDefaultProperties(Collections.singletonMap("server.port", port));
 		app.run(args);
