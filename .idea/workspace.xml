@@ -7,6 +7,11 @@
     <list default="true" id="059f7e7a-b940-45b0-a14e-a4c59920952e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webapprealtimetest/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webapprealtimetest/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/webapprealtimetest/WebAppRealTimeTestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/webapprealtimetest/WebAppRealTimeTestApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/webapprealtimetest/config/BroadcastHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/webapprealtimetest/config/BroadcastHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/webapprealtimetest/config/WebSocketConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/webapprealtimetest/config/WebSocketConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/webapprealtimetest/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/webapprealtimetest/controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/webapprealtimetest/controllers/WebSocketController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/webapprealtimetest/controllers/WebSocketController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +115,9 @@
       <workItem from="1720780671850" duration="7043000" />
       <workItem from="1720818171554" duration="933000" />
       <workItem from="1720863311152" duration="12234000" />
-      <workItem from="1721042485994" duration="4710000" />
+      <workItem from="1721042485994" duration="6453000" />
+      <workItem from="1721118790321" duration="85000" />
+      <workItem from="1721118903362" duration="1571000" />
     </task>
     <servers />
   </component>
